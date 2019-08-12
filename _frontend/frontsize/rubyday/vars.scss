@@ -1,0 +1,72 @@
+$color-background-action: $gray29;
+$color-background-action-hover: $gray28;
+$color-background-dark: $color-mine-shaft;
+$color-background-info: $color-jordy-blue;
+$color-background: $color-white;
+$color-background-grusp: $color-black;
+$color-background-menu: $gray26;
+$color-background-menu-hover: $gray25;
+
+$color-text-talk-speakers-title: $color-white;
+$color-background-talk-speakers: $color-black;
+
+$color-background-schedule-current: mix($color-jordy-blue, $color-white, 25%);
+$color-background-schedule-on-air: $color-carnation;
+$color-text-schedule-on-air: $color-white;
+
+$color-background-sponsor: #fff; // match logo backgrounds
+$color-background-sponsor-alt: #fff; // match logo backgrounds
+$color-background-sponsor-hover: #fff; // match logo backgrounds
+
+$color-background-newsletter: $gray25;
+$color-text-newsletter: $white;
+$color-text-newletter-tip: mix($color-white, $gray25);
+
+$color-background-social: $gray25;
+
+$color-menu-button-alt: $color-link-water;
+$color-menu-button: $color-white;
+$color-menu-left: rgba(#fff, 0.975);
+$color-menu-right: rgba($color-purple, 0.975);
+
+$color-button-sold-out: $color-mine-shaft;
+
+$color-text-action: $color-white;
+
+$color-text-footer: $gray2;
+$color-background-footer: $gray9;
+
+$color-text-form: $gray20;
+$color-background-form: mix($gray24, $gray25);
+
+$color-text-info: $color-jordy-blue;
+$color-text-question: $color-carnation;
+$color-text-schedule-header: $color-white;
+$color-text-schedule-speaker: $color-carnation;
+$color-text-speaker-name-alt: $color-jordy-blue;
+$color-text-speaker-name: $color-white;
+$color-text-sponsorship-option-infos: $color-jordy-blue;
+$color-text-sponsorship-option-plus: $color-atlantis;
+$color-text-sponsorship-option-text: $color-white;
+$color-text-sponsorship-option-title: $color-carnation;
+$color-text-thanks: $color-carnation;
+
+$color-text-talk-title: $color-white;
+$color-background-talk-title: $color-jordy-blue;
+
+$color-text-submit: $color-link-water;
+$color-text: $color-mine-shaft;
+
+$color-twitter-link: $color-purple;
+$color-text-venue: $color-carnation;
+
+$font-family-base: "Quicksand", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+$font-family-header: $font-family-base;
+$font-family-speaker: $font-family-base;
+$font-family-text: $font-family-base;
+$font-family-title: $font-family-base;
+
+$color-background-talk-highlight: transparent;
+
+$box-shadow-outline: 0 0 0 1px rgba(0, 0, 0, 0.05);
+$color-hr: $color-carnation;

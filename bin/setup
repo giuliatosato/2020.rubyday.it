@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+def system! *args
+  system *args or raise args.inspect
+end
+
+system! %{type bundle || gem install bundler}
+system! %{bundle check || bundle install}
+system! %{npm install && cp node_modules/dustman/gulpfile.js .}

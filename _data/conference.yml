@@ -1,0 +1,24 @@
+name: RubyDay
+og_image: http://2020.rubyday.it/img/themes/rubyday/background_fb.jpg
+og_description: RubyDay - Improve your skills and have fun with other ruby enthusiasts!
+slug: rubyday
+url: https://2020.rubyday.it
+where_when: Verona, April 2nd 2020
+year: 2020
+since: 2011
+call_for_paper_url:
+call_for_paper: false
+talks_available: false
+schedule_available: false
+training_available: false
+
+iubenda:
+  cookiePolicyId: 13404179
+  siteId: 1485759
+  lang: en
+  enableRemoteConsent: true
+  localConsentDomain: rubyday.it
+  rebuildIframe: true
+
+google:
+  tag_manager_id: GTM-WXLML2N

@@ -1,0 +1,11 @@
+# place images in:
+# img/conf-name/speaker/file.jpg
+# description is actually the company the speaker is working for
+list:
+#  -
+#    id: luca-guidi
+#    description: Author of Hanami
+#    image: luca-guidi.jpg
+#    first_name: Luca
+#    last_name: Guidi
+#    twitter: jodosha

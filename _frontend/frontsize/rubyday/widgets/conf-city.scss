@@ -1,0 +1,15 @@
+@include block ('conf-city') {
+  height: auto;
+  margin-top: -120px;
+  width: 100%;
+
+  @include media ('<mobile-large') {
+    margin-top: -20px;
+  }
+}
+
+@include block ('conf-city-title') {
+  .mega-info {
+    color: $color-background;
+  }
+}

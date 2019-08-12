@@ -1,0 +1,76 @@
+<div class="speakers-title">
+  <div class="mega-info mega-info--huge">
+    <div class="mega-info__number">8+</div>
+    <div class="mega-info__text">Speakers</div>
+  </div>
+</div>
+
+
+<div class="limit">
+  <div class="speakers">
+    {% for speaker in site.data.speakers.list %}
+      <div class="speakers__column">
+        <a href="{{ site.baseurl }}/talks.html#{{speaker.id}}">
+          <div class="speaker">
+            <div class="speaker__pic" style="background-image:url('{{ site.baseurl }}/img/{{ site.data.conference.slug }}/speaker/{{ speaker.image }}');"></div>
+            <div class="speaker__full-name">
+              <div class="speaker__name">
+                {{ speaker.first_name }}
+              </div>
+              <div class="speaker__name">
+                {{ speaker.last_name }}
+              </div>
+            </div>
+            <div class="speaker__description">
+              {{ speaker.description }}
+            </div>
+            {% if !speaker.twitter %}
+            <a class="speaker__twitter-link" href="https://twitter.com/{{ speaker.twitter }}">
+              @{{ speaker.twitter }}
+            </a>
+            {% endif %}
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+
+    <div class="speakers__cfp">
+      {% if site.data.conference.call_for_paper %}
+        <a href="{{ site.data.conference.call_for_paper_url }}" target="_blank" class="button button--register">
+          Call for Papers
+        </a>
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+<!--<div class="speakers-title">-->
+<!--  <div class="mega-info mega-info&#45;&#45;huge">-->
+<!--    <div class="mega-info__number">1</div>-->
+<!--    <div class="mega-info__text">MC</div>-->
+<!--  </div>-->
+<!--</div>-->
+
+<!--<div class="limit">-->
+<!--  <div class="speakers">-->
+<!--    <div class="speakers__column">-->
+<!--        <div class="speaker">-->
+<!--          <div class="speaker__pic" style="background-image:url('{{ site.baseurl }}/img/{{ site.data.conference.slug }}/speaker/monica-giambitto.jpg');"></div>-->
+<!--          <div class="speaker__full-name">-->
+<!--            <div class="speaker__name">-->
+<!--              Monica-->
+<!--            </div>-->
+<!--            <div class="speaker__name">-->
+<!--              Giambitto-->
+<!--            </div>-->
+<!--          </div>-->
+<!--          <div class="speaker__description">-->
+<!--            Master of ceremonies-->
+<!--          </div>-->
+<!--          <a class="speaker__twitter-link" href="https://twitter.com/kfmolli">-->
+<!--            @kfmolli-->
+<!--          </a>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--  </div>-->
+<!--</div>-->

@@ -1,0 +1,41 @@
+@include block ('limit') {
+
+  overflow: hidden;
+  padding: s(1);
+  position: relative;
+
+  @include limit((
+      '>=desktop-large': 1600px,
+      '>=desktop-small': 1280px,
+      '>=tablet-large': 1024px
+  ));
+
+
+  @include media ('<desktop-small') {
+    .desktop-bio {
+      display: none !important;
+    }
+    .mobile-bio {
+      display: block !important;
+    }
+  }
+
+  @include media ('>=desktop-small') {
+    .desktop-bio {
+      display: block !important;
+    }
+    .mobile-bio {
+      display: none !important;
+    }
+  }
+
+
+
+  @include modifier ('top-margin') {
+    margin-top: s(8);
+  }
+
+  @include modifier ('no-overflow') {
+    overflow: visible;
+  }
+}

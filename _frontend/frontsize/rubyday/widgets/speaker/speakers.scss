@@ -1,0 +1,35 @@
+@include block ('speakers') {
+  width: 100%;
+  font-size: 0;
+  text-align: center;
+
+  @include float-row((
+      '<tablet-small': 2,
+      ('>=tablet-small', '<tablet-large'): 3,
+      ('>=tablet-large', '<desktop-small'): 4,
+      '>=desktop-small': 5,
+  ));
+  @include element ('column') {}
+
+  @include element ('cfp') {
+    font-family: $font-family-title;
+    font-style: italic;
+    font-size: initial;
+    font-weight: 700;
+    line-height: 42px;
+    padding: s(4);
+
+    @include media ('<tablet-small') {
+      padding: 0;
+      width: 100%;
+    }
+
+    .button {
+      display: block;
+    }
+  }
+  @include element ('column') {
+    display: inline-block;
+    float: none;
+  }
+}

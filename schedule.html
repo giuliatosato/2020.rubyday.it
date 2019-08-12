@@ -1,0 +1,76 @@
+---
+title: Schedule
+---
+
+<div class="limit limit--top-margin">
+
+  {% include schedule/intro.html date='April 11th 2019' %}
+
+  <div class="schedule" data-dates="1-25,5-12,1-24">
+    <table class="schedule__table">
+      <thead>
+        {% include schedule/header.html tracks='1' %}
+      </thead>
+      <tbody>
+        {% include schedule/event.html time='09:00 - 09:30' title='Check-in' fill='true' %}
+        {% include schedule/event.html time='09:30 - 09:40' title='GrUSP presentation' fill='true' %}
+        {% include schedule/event.html time='09:40 - 09:50' title='rubyday presentation' fill='true' %}
+
+        {% include schedule/talk.html time='09:50 - 10:40' title='Zeitwerk: A new code loader for Ruby' keynote='true' fill='true' %}
+        {% include schedule/pause.html time='10:40 - 11:00' title='Short break' icon="coffee" fill='true' %}
+        
+        {% include schedule/talk.html time='11:00 - 11:50' title='Beauty and the Beast: your application and distributed systems' fill='true' %}  
+        {% include schedule/talk.html time='11:50 - 12:40' title='Enterprise Ruby 2.1' fill='true' %}
+
+        {% include schedule/pause.html time='12:40 - 14:20' title='Lunch + Lightning talks' icon="food" fill='true' %}
+
+        {% include schedule/talk.html time='14:20 - 15:10' title='Building modern web-applications with GraphQL & serverless Ruby' fill='true' %}
+        {% include schedule/talk.html time='15:10 - 16:00' title='Hanami 2.0' fill='true' %}
+        
+        {% include schedule/pause.html time='16:00 - 16:20' title='Coffee break' icon="coffee" fill='true' %}
+        
+        {% include schedule/talk.html time='16:20 - 17:10' title='Live code a game on the browser with Opal and Vue.js' fill='true' %}
+        {% include schedule/talk.html time='17:10 - 18:00' title='Ruby 3.0 Redux' keynote='true' fill='true' %}
+        
+        {% include schedule/pause.html time='18:00 - 18:10' title='Bye bye from GrUSP' icon="bar" fill='true' %}
+        {% include schedule/pause.html time='18:10 - 20:00' title='Happy hour!' icon="bar" fill='true' %}
+      </tbody>
+    </table>
+  </div>
+
+  <div class="schedule schedule--mobile" data-dates="5-12,1-24,1-25">
+    <table class="schedule__table">
+      <thead>
+        {% include schedule/header.html track='1' %}
+      </thead>
+      <tbody>
+        {% include schedule/event.html time='09:00 - 09:30' title='Check-in' fill='true' %}
+        {% include schedule/event.html time='09:30 - 09:40' title='GrUSP presentation' fill='true' %}
+        {% include schedule/event.html time='09:40 - 09:50' title='rubyday presentation' fill='true' %}
+
+        {% include schedule/talk.html time='09:50 - 10:40' title='Zeitwerk: A new code loader for Ruby' keynote='true' fill='true' %}
+        {% include schedule/pause.html time='10:40 - 11:00' title='Short break' icon="coffee" fill='true' %}
+        
+        {% include schedule/talk.html time='11:00 - 11:50' title='Beauty and the Beast: your application and distributed systems' fill='true' %}  
+        {% include schedule/talk.html time='11:50 - 12:40' title='Enterprise Ruby 2.1' fill='true' %}
+
+        {% include schedule/pause.html time='12:40 - 14:20' title='Lunch + Lightning talks' icon="food" fill='true' %}
+
+        {% include schedule/talk.html time='14:20 - 15:10' title='Building modern web-applications with GraphQL & serverless Ruby' fill='true' %}
+        {% include schedule/talk.html time='15:10 - 16:00' title='Hanami 2.0' fill='true' %}
+        
+        {% include schedule/pause.html time='16:00 - 16:20' title='Coffee break' icon="coffee" fill='true' %}
+        
+        {% include schedule/talk.html time='16:20 - 17:10' title='Live code a game on the browser with Opal and Vue.js' fill='true' %}
+        {% include schedule/talk.html time='17:10 - 18:00' title='Ruby 3.0 Redux' fill='true' %}
+        
+        {% include schedule/pause.html time='18:00 - 18:10' title='Bye bye from GrUSP' icon="bar" fill='true' %}
+        {% include schedule/pause.html time='18:10 - 20:00' title='Happy hour!' icon="bar" fill='true' %}
+      </tbody>
+    </table>
+  </div>
+
+</div>
+
+{% include index/newsletter.html %}
+{% include index/sponsors.html %}

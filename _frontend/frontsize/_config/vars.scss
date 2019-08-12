@@ -1,0 +1,30 @@
+$font-family-system-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+$font-family-sans: $font-family-system-stack;
+$font-family-serif: $font-family-system-stack;
+$font-family-monospace: menlo, monaco, 'courier new', monospace;
+
+@import "./palette";
+
+$color-old-purple: #5d4ca0;
+$color-grusp-logo-yellow: #fef563;
+
+$color-atlantis: $gray29; // unused?
+$color-black: $gray27; // grusp footer box
+$color-carnation: $gray25; // location pin
+
+$color-jordy-blue: $base; // highlight, cta
+$color-link-water: $base; // subtitle, band, speakers title
+$color-mine-shaft: $gray9; // header event title color, hamburger
+$color-white: $gray20;
+$color-wild-sand: white; // partners background
+$color-purple: $gray6;
+$color-hero-filter: transparent;
+
+$color-facebook: #3b5998;
+$color-flickr: #0063dc;
+$color-gplus: #dd4b39;
+$color-twitter: #1da1f2;
+$color-vimeo: #162221;
+$color-youtube: #cd201f;
+
+$white: $color-white;
