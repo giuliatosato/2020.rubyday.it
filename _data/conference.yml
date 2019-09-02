@@ -6,8 +6,8 @@ url: https://2020.rubyday.it
 where_when: Verona, April 2nd 2020
 year: 2020
 since: 2011
-call_for_paper_url:
-call_for_paper: false
+call_for_paper_url: https://forms.gle/8tvjWvLaQp1mSANV9
+call_for_paper: true
 talks_available: false
 schedule_available: false
 training_available: false
