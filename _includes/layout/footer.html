@@ -58,9 +58,11 @@
               <div class="footer__nav-item">
                 <a href="{{ site.baseurl }}/#newsletter" class="button button--footer button--left">Newsletter</a>
               </div>
+              {% if site.data.venue.venue_available %}
               <div class="footer__nav-item">
                 <a href="{{ site.baseurl }}/venue.html" class="button button--footer button--left">Venue</a>
               </div>
+              {% endif %}
               <div class="footer__nav-item">
                 <a href="http://www.vueday.it" class="button button--footer button--left">VueDay</a>
               </div>
