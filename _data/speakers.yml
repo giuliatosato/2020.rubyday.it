@@ -2,10 +2,18 @@
 # img/conf-name/speaker/file.jpg
 # description is actually the company the speaker is working for
 list:
-#  -
-#    id: luca-guidi
-#    description: Author of Hanami
-#    image: luca-guidi.jpg
-#    first_name: Luca
-#    last_name: Guidi
-#    twitter: jodosha
+  -
+    id: eileen-uchitelle
+    description: Staff Software Engineer, GitHub
+    image: eileen-uchitelle.jpg
+    first_name: Eileen
+    last_name: Uchitelle
+    twitter: eileencodes
+
+  -
+    id: aaron-patterson
+    description: Core team member of Ruby and Rails, and Software Engineer at GitHub
+    image: aaron-patterson.jpg
+    first_name: Aaron
+    last_name:  Patterson
+    twitter: tenderlove
