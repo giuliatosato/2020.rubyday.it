@@ -36,6 +36,9 @@ diamond:
     - 5 tickets with 20% discount
   max: 4
   list:
+    -
+      url: https://dev.welaika.com/?utm_source=rubyday
+      image: welaika.svg  
 
 platinum:
   price: € 3,000
