@@ -49,3 +49,26 @@ title: Scholarships
     </p>
   </div>
 </div>
+
+{% if site.data.sponsors.diversity.list | size %}
+<div id="sponsors" class="sponsors">
+  <div class="sponsors__contents">
+    <div class="limit limit--no-overflow">
+      <div class="sponsors__category">
+        <div class="sponsors__title">
+          Thanks to our diversity sponsors
+        </div>
+        <div class="sponsors__platinum">
+          {% for sponsor in site.data.sponsors.diversity.list %}
+          <div class="sponsors__platinum-column">
+            <a href="{{ sponsor.url }}" class="sponsors__link">
+              <div style="background-image:url('{{ site.baseurl }}/img/sponsors/{{ sponsor.image }}');" class="sponsors__image"></div>
+            </a>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}

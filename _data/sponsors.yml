@@ -93,3 +93,9 @@ bronze:
 
 stroopwaffel:
   list:
+
+diversity:
+  list:
+    -
+      url: https://dev.welaika.com/?utm_source=rubyday
+      image: welaika.svg
