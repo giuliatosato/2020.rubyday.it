@@ -3,13 +3,33 @@
 # description is actually the company the speaker is working for
 list:
   -
-    id: eileen-uchitelle
+    id: john-crepezzi
     description: Staff Software Engineer, GitHub
-    image: eileen-uchitelle.jpg
-    first_name: Eileen
-    last_name: Uchitelle
-    twitter: eileencodes
-
+    image: john-crepezzi.jpg
+    first_name: John
+    last_name: Crepezzi
+    twitter: seejohnrun
+  -
+    id: floor-drees
+    description: Developer PMM, Microsoft
+    image: floor-drees.jpg
+    first_name: Floor
+    last_name: Drees
+    twitter: FloorDrees
+  -
+    id: greg-kaczorek
+    description: Senior Software Engineer, Toptal
+    image: greg-kaczorek.jpg
+    first_name: Greg
+    last_name: Kaczorek
+    twitter: GregPK
+  -
+    id: janko-marohnic
+    description: Author of Shrine, Ruby-off-Rails evangelist
+    image: janko-marohnic.jpg
+    first_name: Janko
+    last_name: Marohnić
+    twitter: jankomarohnic
   -
     id: aaron-patterson
     description: Core team member of Ruby and Rails, and Software Engineer at GitHub
@@ -17,3 +37,17 @@ list:
     first_name: Aaron
     last_name:  Patterson
     twitter: tenderlove
+  -
+    id: dmitry-salahutdinov
+    description: Lead Backend Developer, Amplifr
+    image: dmitry-salahutdinov.jpg
+    first_name: Dmitry
+    last_name:  Salahutdinov
+    twitter: dsalahutdinov1
+  -
+    id: eileen-uchitelle
+    description: Staff Software Engineer, GitHub
+    image: eileen-uchitelle.jpg
+    first_name: Eileen
+    last_name: Uchitelle
+    twitter: eileencodes
