@@ -4,32 +4,44 @@
   extract: >
     If you work around Ruby long enough, you’ll learn that certain ideas are just taken as gospel. 
     Don’t use for loops, avoid global state, use symbols pretty much wherever possible. 
-    This talk will go deep into the ‘why’ behind some commonly accepted advice on Ruby, dig into the internals, and what we find might just surprise you.
+    This talk will go deep into the ‘why’ behind some commonly accepted advice on Ruby, dig into the internals, and
+    what we find might just surprise you.
 -
   speaker_id: floor-drees
   title: OSS - to be defined
   extract: > 
     Enterprises have embraced Open Source software - but their grip is suffocating. 
     Business critical software is plagued by vulnerabilities because of maintainer burnout. 
-    We're looking for more sustainable models, and regaining control over what our code can be used for - enter the Hippocratic License. 
-    GitHub taking down software that was vital infrastructure for opposition groups in Spain shows us that no one party (let alone company) should own access to open source software.
+    We're looking for more sustainable models, and regaining control over what our code can be used for - enter the
+    Hippocratic License.
+    GitHub taking down software that was vital infrastructure for opposition groups in Spain shows us that no one party
+    (let alone company) should own access to open source software.
     The world runs on open source, how do we make sure it can do so sustainably and reliably?
 -
   speaker_id: greg-kaczorek
   title: Moving to GraphQL - the fuzzy parts
   extract: >
-    We all know the good feeling that comes from starting a green field project and being able to use all the great new technology. 
-    But what if you have a 460k LOC monolith but you really feel that a new GraqhQL API is the way to go. Well, if you have good design, you can totally do it, and here's how.
-    GraphQL is all the rage for good reason. It's geared towards solving the problems REST API's have when used by modern front-end apps. However, new technology often has a way of breaking apart when subjected to legacy projects. 
-    How easy is it to create a GraphQL API for a commercial project with 7 years of active development and 400k users? What difficulties might you encounter that blurbs and blog posts won't tell you about? I'll cover all that and more in this riveting tale of fun, sweat and tears (of joy).
+    We all know the good feeling that comes from starting a green field project and being able to use all the great new
+    technology.
+    But what if you have a 460k LOC monolith but you really feel that a new GraqhQL API is the way to go. Well, if you
+    have good design, you can totally do it, and here's how. GraphQL is all the rage for good reason. It's geared
+    towards solving the problems REST API's have when used by modern front-end apps. However, new technology often has
+    a way of breaking apart when subjected to legacy projects.
+    How easy is it to create a GraphQL API for a commercial project with 7 years of active development and 400k users?
+    What difficulties might you encounter that blurbs and blog posts won't tell you about? I'll cover all that and more
+    in this riveting tale of fun, sweat and tears (of joy).
 -
   speaker_id: janko-marohnic
-  title: Sequel: When ActiveRecord is not enough
+  title: "Sequel: When ActiveRecord is not enough"
   extract: > 
-    As Rails developers, using ActiveRecord as our database library is a given. As our application grows, we start noticing that some of our new requirements aren't exactly supported by the ActiveRecord API. 
-    So, we pull up our sleeves and write that raw SQL snippet, re-create some queries without models to get that extra performance gain, or work around that bug in the library, and move on.
-    But gaining this technical debt isn't necessary if you're using a library that supports your advanced use cases. Enter Sequel, an alternative ORM for Ruby. 
-    In this talk we will show some advantages that Sequel has over Active Record, covering topics like the query API, building SQL expressions (Arel), connection pools, immutability and more.     
+    As Rails developers, using ActiveRecord as our database library is a given. As our application grows, we start
+    noticing that some of our new requirements aren't exactly supported by the ActiveRecord API.
+    So, we pull up our sleeves and write that raw SQL snippet, re-create some queries without models to get that extra
+    performance gain, or work around that bug in the library, and move on.
+    But gaining this technical debt isn't necessary if you're using a library that supports your advanced use cases.
+    Enter Sequel, an alternative ORM for Ruby.
+    In this talk we will show some advantages that Sequel has over Active Record, covering topics like the query API,
+    building SQL expressions (Arel), connection pools, immutability and more.
 -
   speaker_id: aaron-patterson
   title: tba
@@ -39,33 +51,16 @@
   speaker_id: dmitry-salahutdinov
   title: Product metrics for developers
   extract: >
-     "In my talk, I am going to show how developers could quickly set up and use metrics and indicators to start to get more in-depth into business essence and to analyze user behavior.
-     Issue Modern development methodologies are mainly focused on the processes and methods of feature delivery but do not explain feature choice and prioritization in any way. 
-     In most teams, the average developer receives an abstract task, without explanation and argumentation, which leads to:
-     Misunderstanding:Developers do not know the reason for implementing a specific feature. And there is no meaningful expression its of benefits.
-     Lack of motivation: the developer is not interested in implementing yet another meaningless business wish
-     Communication blockers: during the implementation of a feature, the volume of communication between the “customer” and the “executor” critically increases. In distributed commands, this can cause blockers.
-     Lack of argumentation: if a developer offers new functionality, he is not able to evaluate its usefulness and to argue the potential benefits of an idea
-     Solution Implement an analytical approach to the feature selection and prioritiazation, and analyze features with the supposed business impact, based on business metrics. 
-     This approach leads to: 
-     Collect product metrics with analytics that is easy to use and accessible to everyone.
-     Analyze user behavior and their interaction with the product
-     Build predictions and hypotheses of features to increase key/financial application metrics
-     Monitor metrics changes after releases, build an understanding of user needs
-     To repeat successful experiments, and roll back unsuccessful ones - with the command to pass to the meaningful growth of the product (financial and other), expressed by quantitative indicators.
-     In my talk, I want to show from the developer point of view how interesting and useful is the development based on product metrics. In particular, it leads:
-     to understand deeper the business process essence
-     to increase in the developer culture by full awareness of feature benefits
-     to reduce communication blockers between developers and product owners. It is essential for distributed teams autonomy in decision-making (relevant for distributed teams)
-     to increase motivation (tools for assessing the usefulness and relevance of features) for the growth-oriented teams
-     to get deeper in the understanding of the user demands and quality of user experience"
+    TBA
   
 -
   speaker_id: eileen-uchitelle
   title: The Past, Present, and Future of Rails at GitHub
   extract: >
-     On August 15, 2018 GitHub was deployed to production running Rails 5.2. 
-     This was a historic event; for years GitHub had been behind Rails and dependent on a custom fork of Rails 2.3. 
-     This talk will visit GitHub’s past, including our tumultuous relationship with the Rails framework, and the grueling effort it took to get our application on the latest version. 
-     You’ll learn what mistakes to avoid and the reasons why such a difficult upgrade was worth it. 
-     We’ll explore what tracking master means for the future and establish that GitHub and Rails are in it together for the long haul.
+    On August 15, 2018 GitHub was deployed to production running Rails 5.2.
+    This was a historic event; for years GitHub had been behind Rails and dependent on a custom fork of Rails 2.3.
+    This talk will visit GitHub’s past, including our tumultuous relationship with the Rails framework, and the grueling
+    effort it took to get our application on the latest version.
+    You’ll learn what mistakes to avoid and the reasons why such a difficult upgrade was worth it.
+    We’ll explore what tracking master means for the future and establish that GitHub and Rails are in it together for
+    the long haul.
