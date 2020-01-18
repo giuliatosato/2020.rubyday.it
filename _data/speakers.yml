@@ -6,13 +6,13 @@ list:
     id: john-crepezzi
     description: Staff Software Engineer, GitHub
     image: john-crepezzi.jpg
-    first_name: John	
+    first_name: John
     last_name: Crepezzi
     twitter: seejohnrun
   -
     id: floor-drees
     description: Developer PMM, Microsoft
-    image: eileen-uchitelle.jpg
+    image: floor-drees.jpg
     first_name: Floor
     last_name: Drees
     twitter: FloorDrees
@@ -50,6 +50,4 @@ list:
     image: eileen-uchitelle.jpg
     first_name: Eileen
     last_name: Uchitelle
-    twitter: eileencodes   
-    
-		
+    twitter: eileencodes
