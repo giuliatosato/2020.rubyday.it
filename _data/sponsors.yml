@@ -40,7 +40,7 @@ diamond:
       url: https://nebulab.it/?utm_source=rubyday2020
       image: nebulab.svg  
     -
-      url: https://dev.welaika.com/?utm_source=rubyday
+      url: https://dev.welaika.com/?utm_source=rubyday2020
       image: welaika.svg  
 
       
@@ -71,7 +71,7 @@ gold:
   max: 8
   list:
     -
-      url: https://www.workwave.com/?utm_source=rubyday
+      url: https://www.workwave.com/?utm_source=rubyday2020
       image: workwave.svg
 
 silver:
@@ -85,6 +85,9 @@ silver:
     - 3 tickets with 10% discount
   max: 16
   list:
+    -
+      url: https://www.microsoft.com/?utm_source=rubyday2020
+      image: microsoft.svg
 
 bronze:
   price: € 500
@@ -101,5 +104,5 @@ stroopwaffel:
 diversity:
   list:
     -
-      url: https://dev.welaika.com/?utm_source=rubyday
+      url: https://dev.welaika.com/?utm_source=rubyday2020
       image: welaika.svg
