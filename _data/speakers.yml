@@ -31,6 +31,13 @@ list:
     last_name: Marohnić
     twitter: jankomarohnic
   -
+    id: ivan-nemytchenko	
+    description: Independent consultant
+    image: ivan-nemytchenko.jpg
+    first_name: Ivan
+    last_name: Nemytchenko	
+    twitter: inemation
+  -
     id: aaron-patterson
     description: Core team member of Ruby and Rails, and Software Engineer at GitHub
     image: aaron-patterson.jpg
