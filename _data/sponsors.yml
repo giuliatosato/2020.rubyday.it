@@ -88,6 +88,9 @@ silver:
     -
       url: https://www.microsoft.com/?utm_source=rubyday2020
       image: microsoft.svg
+    -
+      url: https://github.com/?utm_source=rubyday2020
+      image: github.svg
 
 bronze:
   price: € 500
