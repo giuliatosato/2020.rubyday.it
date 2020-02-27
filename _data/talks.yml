@@ -1,6 +1,6 @@
 -
   speaker_id: john-crepezzi
-  title: Cool, But... Why?
+  title: 'Cool, But... Why?'
   extract: >
     If you work around Ruby long enough, you’ll learn that certain ideas are just taken as gospel. 
     Don’t use for loops, avoid global state, use symbols pretty much wherever possible. 
@@ -8,7 +8,7 @@
     what we find might just surprise you.
 -
   speaker_id: floor-drees
-  title: OSS - to be defined
+  title: 'OSS - to be defined'
   extract: > 
     Enterprises have embraced Open Source software - but their grip is suffocating. 
     Business critical software is plagued by vulnerabilities because of maintainer burnout. 
@@ -19,7 +19,7 @@
     The world runs on open source, how do we make sure it can do so sustainably and reliably?
 -
   speaker_id: greg-kaczorek
-  title: Moving to GraphQL - the fuzzy parts
+  title: 'Moving to GraphQL - the fuzzy parts'
   extract: >
     We all know the good feeling that comes from starting a green field project and being able to use all the great new
     technology.
@@ -56,7 +56,7 @@
     4. tracking codebase changes
 -
   speaker_id: aaron-patterson
-  title: Don't @ me!  Instance Variable Performance in Ruby
+  title: 'Don't @ me!  Instance Variable Performance in Ruby'
   extract: >  
     How do instance variables work? We've all used instance variables in our programs, but how do they actually work?
     In this presentation we'll look at how instance variables are implemented in Ruby.
@@ -65,7 +65,7 @@
     Be prepared for a deep dive in to a weird area of Ruby, and remember: don't @ me!
 -
   speaker_id: dmitry-salahutdinov
-  title: Product metrics for developers
+  title: 'Product metrics for developers'
   extract: >
     Product metrics could be handy to analyze feature performance and get in-depth into business essence. 
     But they are mostly out of the developer's scope. I am going to tell you why developers should use product analytics
@@ -73,7 +73,7 @@
   
 -
   speaker_id: eileen-uchitelle
-  title: The Past, Present, and Future of Rails at GitHub
+  title: 'The Past, Present, and Future of Rails at GitHub'
   extract: >
     On August 15, 2018 GitHub was deployed to production running Rails 5.2.
     This was a historic event; for years GitHub had been behind Rails and dependent on a custom fork of Rails 2.3.
