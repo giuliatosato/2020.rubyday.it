@@ -56,7 +56,7 @@
     4. tracking codebase changes
 -
   speaker_id: aaron-patterson
-  title: 'Don't @ me!  Instance Variable Performance in Ruby'
+  title: "Don't @ me! Instance Variable Performance in Ruby"
   extract: >  
     How do instance variables work? We've all used instance variables in our programs, but how do they actually work?
     In this presentation we'll look at how instance variables are implemented in Ruby.
