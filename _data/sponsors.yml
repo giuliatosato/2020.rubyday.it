@@ -118,3 +118,6 @@ diversity:
     -
       url: https://dev.welaika.com/?utm_source=rubyday2020
       image: welaika.svg
+    -
+      url: https://appsignal.com/?utm_source=rubyday2020
+      image: appsignal.svg      
