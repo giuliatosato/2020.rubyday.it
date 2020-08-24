@@ -56,13 +56,13 @@
     4. tracking codebase changes
 -
   speaker_id: aaron-patterson
-  title: "Don't @ me! Instance Variable Performance in Ruby"
+  title: "Reduce Memory by Using More"
   extract: >  
-    How do instance variables work? We've all used instance variables in our programs, but how do they actually work?
-    In this presentation we'll look at how instance variables are implemented in Ruby.
-    We'll start with a very strange benchmark, then dive in to Ruby internals to understand why the code behaves the way it does. 
-    Once we've figured out this strange behavior, we'll follow up with a patch to increase instance variable performance.  
-    Be prepared for a deep dive in to a weird area of Ruby, and remember: don't @ me!
+    Most programmers don't need to think about allocating or deallocating memory, and they have the garbage collector to thank for that! 
+    In this presentation we'll discuss the latest developments in GC compaction as well as how the GC allocates and arranges memory internally. 
+    Once we understand this we'll explore a strange way Ruby is decreasing memory usage by allocating more memory. 
+    The GC manages memory so that you don't have to, but we're going to see how it's actually done!
+
 -
   speaker_id: dmitry-salahutdinov
   title: 'Product metrics for developers'
